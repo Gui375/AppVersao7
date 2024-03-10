@@ -31,21 +31,32 @@ function CalcularIMC() {
             alert(calculoIMC);
             if(calculoIMC < 18.5) {
               setValorIMC("Baixo Peso");
+                  alert("Baixo Peso");
               
             } else if (calculoIMC < 25) {
                 setValorIMC("Peso adequado");
+                  alert("Peso adequado");
+
             }
             else if (calculoIMC < 30) {
                 setValorIMC("Sobrepeso");
+                  alert("Sobrepeso");
+
             }
             else if (calculoIMC<35) {
                 setValorIMC("Obesidade Grau 1 ");
+                  alert("Obesidade Grau 1");
+
             }
             else if (calculoIMC < 41 ) {
                 setValorIMC("Obesidade Grau 2 ");
+                  alert("Obesidade Grau 2");
+
             }
             else{
                 setValorIMC("Obesidade Grau 3 ");
+                  alert("Obesidade Grau 3");
+
             }
   
           } 
